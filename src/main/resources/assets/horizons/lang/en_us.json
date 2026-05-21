@@ -1,0 +1,18 @@
+{
+  "item.horizons.archival_book_gold": "Archival Book",
+  "item.horizons.archival_book_silver": "Archival Book",
+  "item.horizons.boundbreak_icon": "BoundBreak",
+  "item.horizons.butterfly_charm": "Butterfly Charm",
+  "item.horizons.down_icon": "Down",
+  "item.horizons.easter_egg": "Easter Egg",
+  "item.horizons.ghost_channel_pendant": "Ghost Channel",
+  "item.horizons.ghost_channel_pin": "Ghost Channel",
+  "item.horizons.ghost_channel_xd": "Ghost Channel",
+  "item.horizons.perdu_icon": "Perdu",
+  "item.horizons.robot_icon": "Robot",
+  "item.horizons.spirit_blood": "Spirit Blood",
+  "item.horizons.training_sword": "Training Sword",
+  "item.horizons.up_icon": "Up",
+
+  "itemGroup.horizonstab": "BoundBreak Horizons"
+}
