@@ -75,6 +75,24 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL)));
     public static final RegistryObject<Item> BLOOD_SPLATTER_4 = ITEMS.register("blood_splatter_4",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL)));
+    public static final RegistryObject<Item> FEMUR_BONE = ITEMS.register("femur_bone",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL)));
+    public static final RegistryObject<Item> FINGER_BONE = ITEMS.register("finger_bone",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL)));
+    public static final RegistryObject<Item> HUMAN_C6_VERTEBRAE = ITEMS.register("human_c6_vertebrae",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL)));
+    public static final RegistryObject<Item> HUMERUS_BONE = ITEMS.register("humerus_bone",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL)));
+    public static final RegistryObject<Item> RADIUS_BONE = ITEMS.register("radius_bone",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL)));
+    public static final RegistryObject<Item> RIB_BONE = ITEMS.register("rib_bone",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL)));
+    public static final RegistryObject<Item> RIBCAGE_BONE = ITEMS.register("ribcage_bone",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL)));
+    public static final RegistryObject<Item> SYRINGE = ITEMS.register("syringe",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL)));
+    public static final RegistryObject<Item> SYRINGE_EMPTY = ITEMS.register("syringe_empty",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL)));
 
     //CHESS PIECES
     public static final RegistryObject<Item> CHESS_PIECE_BLACK_BISHOP = ITEMS.register("chess_piece_black_bishop",
