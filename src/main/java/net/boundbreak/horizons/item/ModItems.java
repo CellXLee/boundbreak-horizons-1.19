@@ -11,6 +11,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Horizons.MOD_ID);
 
+    //This is for the MAIN Horizons tab. Until stated otherwise, everything should go in here.
     public static final RegistryObject<Item> ARCHIVAL_BOOK_GOLD = ITEMS.register("archival_book_gold",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
     public static final RegistryObject<Item> ARCHIVAL_BOOK_SILVER = ITEMS.register("archival_book_silver",
@@ -58,6 +59,38 @@ public class ModItems {
     public static final RegistryObject<Item> CRYSTAL = ITEMS.register("crystal",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
     public static final RegistryObject<Item> GEM = ITEMS.register("gem",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+    public static final RegistryObject<Item> AM_PEN = ITEMS.register("am_pen",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+    public static final RegistryObject<Item> BLUE_CAT_MUSIC_DISC = ITEMS.register("blue_cat_music_disc",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+    public static final RegistryObject<Item> DOVE_FEATHER = ITEMS.register("dove_feather",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+    public static final RegistryObject<Item> GLASSES = ITEMS.register("glasses",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+    public static final RegistryObject<Item> GOLDEN_EGG = ITEMS.register("golden_egg",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+    public static final RegistryObject<Item> HAWK_FEATHER = ITEMS.register("hawk_feather",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+    public static final RegistryObject<Item> JOKER_CARD = ITEMS.register("joker_card",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+    public static final RegistryObject<Item> PENCIL = ITEMS.register("pencil",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+    public static final RegistryObject<Item> ROOSTER_FEATHER = ITEMS.register("rooster_feather",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+    public static final RegistryObject<Item> RUBBING_ALCOHOL = ITEMS.register("rubbing_alcohol",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+    public static final RegistryObject<Item> SCISSORS = ITEMS.register("scissors",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+    public static final RegistryObject<Item> SEWING_NEEDLE = ITEMS.register("sewing_needle",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+    public static final RegistryObject<Item> SPELLBOOK = ITEMS.register("spellbook",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+    public static final RegistryObject<Item> TICTACTOEO = ITEMS.register("tictactoeo",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+    public static final RegistryObject<Item> TICTACTOEX = ITEMS.register("tictactoex",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+    public static final RegistryObject<Item> WREN_FEATHER = ITEMS.register("wren_feather",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
 
     //MEDICAL TAB
