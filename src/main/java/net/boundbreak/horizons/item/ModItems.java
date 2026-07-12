@@ -13,6 +13,7 @@ public class ModItems {
 
     //This is for the MAIN Horizons tab. Until stated otherwise, everything should go in here.
     //THIS IS A COMMENT. IF YOU CAN SEE THIS, THE MOD HAS UPDATED ON YOUR SIDE.
+    //I CAN SEE THIS, IT WORKS
     public static final RegistryObject<Item> ARCHIVAL_BOOK_GOLD = ITEMS.register("archival_book_gold",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
     public static final RegistryObject<Item> ARCHIVAL_BOOK_SILVER = ITEMS.register("archival_book_silver",
