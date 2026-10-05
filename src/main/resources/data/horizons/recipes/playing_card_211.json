@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "horizons:playing_card_210"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "horizons:playing_card_211"
+  }
+}

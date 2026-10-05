@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y": { "model":  "horizons:block/smaragdant_crystal" },
+    "axis=z": { "model":  "horizons:block/smaragdant_crystal", "x": 90 },
+    "axis=x": { "model":  "horizons:block/smaragdant_crystal", "x": 90, "y": 90 }
+  }
+}

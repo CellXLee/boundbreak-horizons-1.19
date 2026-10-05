@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:map"
+    },
+    "X": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "@": {
+      "item": "quark:bottled_cloud"
+    },
+    "$": {
+      "item": "minecraft:mud"
+    },
+    "&": {
+      "item": "minecraft:soul_torch"
+    }
+    },
+  "pattern": [
+    " @ ",
+    "X#$",
+    " & "
+  ],
+  "result": {
+    "item": "horizons:ancient_map"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "horizons:syringe"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "horizons:syringe_empty"
+  }
+}

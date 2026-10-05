@@ -22,6 +22,7 @@
   "item.horizons.blood_splatter_3": "Blood Splatter",
   "item.horizons.blood_splatter_4": "Blood Splatter",
   "item.horizons.blue_jay_feather": "Blue Jay Feather",
+  "item.horizons.heart": "heart",
   "item.horizons.brain": "Brain",
   "item.horizons.broken_glasses": "Broken Glasses",
   "item.horizons.crystal_geode": "Crystal Geode",
@@ -38,7 +39,7 @@
   "item.horizons.ribcage_bone": "Ribcage",
   "item.horizons.syringe": "Syringe",
   "item.horizons.syringe_empty": "Empty Syringe",
-  "item.horizons.am_pen": "Pen",
+  "item.horizons.bbh_pen": "Pen",
   "item.horizons.blue_cat_music_disc": "Music Disc (Blue Cat)",
   "item.horizons.dove_feather": "Dove Feather",
   "item.horizons.glasses": "Glasses",
@@ -54,6 +55,9 @@
   "item.horizons.tictactoeo": "Tic-Tac-Toe O",
   "item.horizons.tictactoex": "Tic-Tac-Toe X",
   "item.horizons.wren_feather": "Wren Feather",
+  "item.horizons.pallas": "Pallas",
+  "item.horizons.ancient_map": "Ancient Map",
+  "item.horizons.phantom_blade": "Phantom Blade",
 
   "item.horizons.chess_piece_black_bishop": "Black Bishop",
   "item.horizons.chess_piece_black_king": "Black King",
@@ -72,6 +76,10 @@
   "itemGroup.horizons_medical": "BoundBreak: Medical",
   "itemGroup.horizons_playing_cards": "BoundBreak: Playing Cards",
   "itemGroup.horizons_playing_cards_obfuscated": "BoundBreak: Playing Cards",
+  "itemGroup.horizons_world_lore": "BoundBreak: World Lore",
+  "itemGroup.horizons_player_lore": "BoundBreak: Personal Lore",
+  "itemGroup.horizons_artifacts": "BoundBreak: Artifacts",
+  "itemGroup.horizons_borrowed_assets": "BoundBreak: Borrowed Assets",
 
   "item.horizons.playing_card_1337_1": "Red Joker",
   "item.horizons.playing_card_80085_1": "Black Joker",
@@ -189,5 +197,22 @@
   "item.horizons.playing_card_4100": "Playing Card",
   "item.horizons.playing_card_4110": "Playing Card",
   "item.horizons.playing_card_4120": "Playing Card",
-  "item.horizons.playing_card_4130": "Playing Card"
+  "item.horizons.playing_card_4130": "Playing Card",
+
+  "block.horizons.terminite_block": "Terminite Block",
+  "block.horizons.virid_jadestone": "Virid Jadestone",
+  "block.horizons.virid_jadestone_pillar": "Virid Jadestone Pillar",
+  "block.horizons.virid_jadestone_polished": "Polished Virid Jadestone",
+  "block.horizons.virid_jadestone_tiles": "Virid Jadestone Tiles",
+  "block.horizons.virid_jadestone_bricks": "Virid Jadestone Bricks",
+  "block.horizons.azure_jadestone": "Azure Jadestone",
+  "block.horizons.azure_jadestone_pillar": "Azure Jadestone Pillar",
+  "block.horizons.azure_jadestone_polished": "Azure Virid Jadestone",
+  "block.horizons.azure_jadestone_tiles": "Azure Jadestone Tiles",
+  "block.horizons.azure_jadestone_bricks": "Azure Jadestone Bricks",
+  "block.horizons.smaragdant_crystal": "Smaragdant Crystal",
+  "block.horizons.ender_block": "Ender Block",
+  "block.horizons.dragon_bone_block": "Dragon Bone Block",
+
+  "block.horizons.smooth_black_sandstone": "Smooth Black Sandstone"
 }

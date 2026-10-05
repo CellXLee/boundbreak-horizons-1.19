@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "horizons:cow_skull"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "horizons:corvid_skull"
+  }
+}

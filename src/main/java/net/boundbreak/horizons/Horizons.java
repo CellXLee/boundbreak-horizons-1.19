@@ -1,6 +1,7 @@
 package net.boundbreak.horizons;
 
 import com.mojang.logging.LogUtils;
+import net.boundbreak.horizons.block.ModBlocks;
 import net.boundbreak.horizons.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -24,6 +25,7 @@ public class Horizons
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:oak_planks"
+    },
+    "X": {
+      "item": "minecraft:blackstone"
+    }
+    },
+  "pattern": [
+    "  #",
+    " # ",
+    "X  "
+  ],
+  "result": {
+    "item": "horizons:pencil"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:glass"
+    },
+    "X": {
+      "item": "horizons:sewing_needle"
+    },
+    "@": {
+      "item": "minecraft:glass_pane"
+    }
+    },
+  "pattern": [
+    " # ",
+    "#@#",
+    " X "
+  ],
+  "result": {
+    "item": "horizons:syringe_empty"
+  }
+}

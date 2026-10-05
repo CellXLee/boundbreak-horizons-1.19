@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "horizons:chess_piece_black_pawn"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "horizons:chess_piece_black_queen"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y": { "model":  "horizons:block/virid_jadestone_pillar" },
+    "axis=z": { "model":  "horizons:block/virid_jadestone_pillar", "x": 90 },
+    "axis=x": { "model":  "horizons:block/virid_jadestone_pillar", "x": 90, "y": 90 }
+  }
+}

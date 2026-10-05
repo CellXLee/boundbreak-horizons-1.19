@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "horizons:blood_splatter_1"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "horizons:blood_splatter_2"
+  }
+}

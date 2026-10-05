@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:book"
+    },
+    "X": {
+      "item": "minecraft:glow_lichen"
+    },
+    "@": {
+      "item": "minecraft:glowstone"
+    }
+  },
+  "pattern": [
+    "X@X",
+    "@#@",
+    "X@X"
+  ],
+  "result": {
+    "item": "horizons:spellbook"
+  }
+}

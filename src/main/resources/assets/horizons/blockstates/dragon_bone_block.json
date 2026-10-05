@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y": { "model":  "horizons:block/dragon_bone_block" },
+    "axis=z": { "model":  "horizons:block/dragon_bone_block", "x": 90 },
+    "axis=x": { "model":  "horizons:block/dragon_bone_block", "x": 90, "y": 90 }
+  }
+}

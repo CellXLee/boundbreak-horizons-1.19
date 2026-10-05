@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+    "X": {
+      "item": "minecraft:leather"
+    },
+    "@": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "pattern": [
+    "#@#",
+    "#X#"
+  ],
+  "result": {
+    "item": "horizons:bandages"
+  }
+}

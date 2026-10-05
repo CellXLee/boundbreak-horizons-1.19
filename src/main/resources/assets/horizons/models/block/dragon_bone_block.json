@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "horizons:block/dragon_bone_block_top",
+    "side": "horizons:block/dragon_bone_block_side"
+  }
+}

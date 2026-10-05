@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_nugget"
+    },
+    "X": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "  X",
+    "#XX",
+    "#  "
+  ],
+  "result": {
+    "item": "horizons:sewing_needle"
+  }
+}

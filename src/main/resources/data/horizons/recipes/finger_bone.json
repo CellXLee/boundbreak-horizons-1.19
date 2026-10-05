@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "horizons:femur_bone"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "horizons:finger_bone"
+  }
+}

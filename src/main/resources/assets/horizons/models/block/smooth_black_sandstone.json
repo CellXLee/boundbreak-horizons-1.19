@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "horizons:block/smooth_black_sandstone"
+  }
+}

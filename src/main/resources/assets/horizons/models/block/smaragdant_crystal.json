@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "horizons:block/smaragdant_crystal_top",
+    "side": "horizons:block/smaragdant_crystal_side"
+  }
+}

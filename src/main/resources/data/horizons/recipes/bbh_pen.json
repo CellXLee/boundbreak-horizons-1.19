@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "X": {
+      "item": "minecraft:iron_nugget"
+    },
+    "@": {
+      "item": "minecraft:ink_sac"
+    }
+  },
+  "pattern": [
+    "#",
+    "X",
+    "@"
+  ],
+  "result": {
+    "item": "horizons:bbh_pen"
+  }
+}

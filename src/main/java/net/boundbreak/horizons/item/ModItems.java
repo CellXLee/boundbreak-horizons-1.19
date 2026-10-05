@@ -1,7 +1,11 @@
 package net.boundbreak.horizons.item;
 
 import net.boundbreak.horizons.Horizons;
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -12,48 +16,46 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, Horizons.MOD_ID);
 
     //This is for the MAIN Horizons tab. Until stated otherwise, everything should go in here.
-    //THIS IS A COMMENT. IF YOU CAN SEE THIS, THE MOD HAS UPDATED ON YOUR SIDE.
-    //I CAN SEE THIS, IT WORKS
     public static final RegistryObject<Item> ARCHIVAL_BOOK_GOLD = ITEMS.register("archival_book_gold",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_WORLD_LORE).stacksTo(16)));
     public static final RegistryObject<Item> ARCHIVAL_BOOK_SILVER = ITEMS.register("archival_book_silver",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_WORLD_LORE).stacksTo(16)));
     public static final RegistryObject<Item> BOUNDBREAK_ICON = ITEMS.register("boundbreak_icon",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB).stacksTo(1)));
     public static final RegistryObject<Item> BUTTERFLY_CHARM = ITEMS.register("butterfly_charm",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_PLAYER_LORE).stacksTo(16)));
     public static final RegistryObject<Item> DOWN_ICON = ITEMS.register("down_icon",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB).stacksTo(1)));
     public static final RegistryObject<Item> UP_ICON = ITEMS.register("up_icon",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB).stacksTo(1)));
     public static final RegistryObject<Item> EASTER_EGG = ITEMS.register("easter_egg",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB).stacksTo(16)));
     public static final RegistryObject<Item> GHOST_CHANNEL_PENDANT = ITEMS.register("ghost_channel_pendant",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_PLAYER_LORE).stacksTo(1)));
     public static final RegistryObject<Item> GHOST_CHANNEL_PIN = ITEMS.register("ghost_channel_pin",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_PLAYER_LORE).stacksTo(1)));
     public static final RegistryObject<Item> GHOST_CHANNEL_XD = ITEMS.register("ghost_channel_xd",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_PLAYER_LORE).stacksTo(1)));
     public static final RegistryObject<Item> PERDU_ICON = ITEMS.register("perdu_icon",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB).stacksTo(1)));
     public static final RegistryObject<Item> ROBOT_ICON = ITEMS.register("robot_icon",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB).stacksTo(1)));
     public static final RegistryObject<Item> SPIRIT_BLOOD = ITEMS.register("spirit_blood",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_PLAYER_LORE).stacksTo(1)));
     public static final RegistryObject<Item> TRAINING_SWORD = ITEMS.register("training_sword",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB).stacksTo(1)));
     public static final RegistryObject<Item> BIRD_SKULL = ITEMS.register("bird_skull",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB).stacksTo(16)));
     public static final RegistryObject<Item> BLUE_JAY_FEATHER = ITEMS.register("blue_jay_feather",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_PLAYER_LORE)));
     public static final RegistryObject<Item> BROKEN_GLASSES = ITEMS.register("broken_glasses",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB).stacksTo(1)));
     public static final RegistryObject<Item> COIN = ITEMS.register("coin",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
     public static final RegistryObject<Item> CORVID_SKULL = ITEMS.register("corvid_skull",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB).stacksTo(16)));
     public static final RegistryObject<Item> COW_SKULL = ITEMS.register("cow_skull",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB).stacksTo(16)));
     public static final RegistryObject<Item> CRYSTAL_GEODE = ITEMS.register("crystal_geode",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
     public static final RegistryObject<Item> CRYSTAL_CLUSTER = ITEMS.register("crystal_cluster",
@@ -62,46 +64,56 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
     public static final RegistryObject<Item> GEM = ITEMS.register("gem",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
-    public static final RegistryObject<Item> AM_PEN = ITEMS.register("am_pen",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+    public static final RegistryObject<Item> BBH_PEN = ITEMS.register("bbh_pen",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB).stacksTo(1)));
     public static final RegistryObject<Item> BLUE_CAT_MUSIC_DISC = ITEMS.register("blue_cat_music_disc",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB).stacksTo(1)));
     public static final RegistryObject<Item> DOVE_FEATHER = ITEMS.register("dove_feather",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_PLAYER_LORE)));
     public static final RegistryObject<Item> GLASSES = ITEMS.register("glasses",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB).stacksTo(1)));
     public static final RegistryObject<Item> GOLDEN_EGG = ITEMS.register("golden_egg",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB).stacksTo(16)));
     public static final RegistryObject<Item> HAWK_FEATHER = ITEMS.register("hawk_feather",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_PLAYER_LORE)));
     public static final RegistryObject<Item> JOKER_CARD = ITEMS.register("joker_card",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_PLAYER_LORE).stacksTo(1)));
     public static final RegistryObject<Item> PENCIL = ITEMS.register("pencil",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB).stacksTo(1)));
     public static final RegistryObject<Item> ROOSTER_FEATHER = ITEMS.register("rooster_feather",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_PLAYER_LORE)));
     public static final RegistryObject<Item> RUBBING_ALCOHOL = ITEMS.register("rubbing_alcohol",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB).stacksTo(16)));
     public static final RegistryObject<Item> SCISSORS = ITEMS.register("scissors",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB).stacksTo(1)));
     public static final RegistryObject<Item> SEWING_NEEDLE = ITEMS.register("sewing_needle",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB).stacksTo(16)));
     public static final RegistryObject<Item> SPELLBOOK = ITEMS.register("spellbook",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_ARTIFACTS).stacksTo(1)));
     public static final RegistryObject<Item> TICTACTOEO = ITEMS.register("tictactoeo",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
     public static final RegistryObject<Item> TICTACTOEX = ITEMS.register("tictactoex",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
     public static final RegistryObject<Item> WREN_FEATHER = ITEMS.register("wren_feather",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_PLAYER_LORE)));
+    public static final RegistryObject<Item> PALLAS = ITEMS.register("pallas",
+            () -> new SwordItem(Tiers.NETHERITE, 6, -3.0f,
+                    new Item.Properties().tab(ModCreativeModeTab.HORIZONS_PLAYER_LORE)));
+    public static final RegistryObject<Item> PHANTOM_BLADE = ITEMS.register("phantom_blade",
+            () -> new SwordItem(Tiers.NETHERITE, 6, -2.4f,
+                    new Item.Properties().tab(ModCreativeModeTab.HORIZONS_PLAYER_LORE)));
+    public static final RegistryObject<Item> ANCIENT_MAP = ITEMS.register("ancient_map",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_ARTIFACTS).stacksTo(1)));
 
     //MEDICAL TAB
     public static final RegistryObject<Item> HEART = ITEMS.register("heart",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL)
+                    .food(new FoodProperties.Builder().nutrition(2).saturationMod(0.6f).alwaysEat().build())));
     public static final RegistryObject<Item> BRAIN = ITEMS.register("brain",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL)
+                    .food(new FoodProperties.Builder().nutrition(2).saturationMod(0.6f).alwaysEat().build())));
     public static final RegistryObject<Item> BANDAGES = ITEMS.register("bandages",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL).stacksTo(16)));
     public static final RegistryObject<Item> BLOOD_SPLATTER_1 = ITEMS.register("blood_splatter_1",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL)));
     public static final RegistryObject<Item> BLOOD_SPLATTER_2 = ITEMS.register("blood_splatter_2",
@@ -113,7 +125,8 @@ public class ModItems {
     public static final RegistryObject<Item> FEMUR_BONE = ITEMS.register("femur_bone",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL)));
     public static final RegistryObject<Item> FINGER_BONE = ITEMS.register("finger_bone",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL)
+                    .food(new FoodProperties.Builder().nutrition(2).saturationMod(0.6f).alwaysEat().build())));
     public static final RegistryObject<Item> HUMAN_C6_VERTEBRAE = ITEMS.register("human_c6_vertebrae",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL)));
     public static final RegistryObject<Item> HUMERUS_BONE = ITEMS.register("humerus_bone",
@@ -125,9 +138,9 @@ public class ModItems {
     public static final RegistryObject<Item> RIBCAGE_BONE = ITEMS.register("ribcage_bone",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL)));
     public static final RegistryObject<Item> SYRINGE = ITEMS.register("syringe",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL).stacksTo(1)));
     public static final RegistryObject<Item> SYRINGE_EMPTY = ITEMS.register("syringe_empty",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_MEDICAL).stacksTo(1)));
 
     //CHESS PIECES
     public static final RegistryObject<Item> CHESS_PIECE_BLACK_BISHOP = ITEMS.register("chess_piece_black_bishop",
@@ -390,6 +403,15 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_PLAYING_CARDS_OBFUSCATED)));
     public static final RegistryObject<Item> PLAYING_CARD_80085_0 = ITEMS.register("playing_card_80085_0",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HORIZONS_PLAYING_CARDS_OBFUSCATED)));
+
+    //BORROWED ASSETS (BetterEnd)
+    //INSERT ANY BORROWED BETTEREND ITEMS HERE
+
+    //BORROWED ASSETS (Biomes O' Plenty)
+    //INSERT ANY BORROWED Biomes O' Plenty ITEMS HERE
+
+    //BORROWED ASSETS (Macaw's Biomes O' Plenty)
+    //INSERT ANY BORROWED Macaw's Biomes O' Plenty ITEMS HERE
 
 
 
